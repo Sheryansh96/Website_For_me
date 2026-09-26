@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const links = [
+  { href: "#reel", label: "Reel" },
   { href: "#gallery", label: "Gallery" },
   { href: "#contact", label: "Contact" },
 ];
