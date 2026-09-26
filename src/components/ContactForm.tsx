@@ -30,7 +30,7 @@ export default function ContactForm() {
     const bodyLines = [
       `Name: ${name}`,
       `Email: ${email}`,
-      `Phone: ${phone}`,
+      `Phone: ${phone || "(Not provided)"}`,
       `Event type: ${eventType}`,
       "",
       message || "(No additional details provided.)",
@@ -90,16 +90,15 @@ export default function ContactForm() {
             htmlFor="phone"
             className="text-xs font-medium tracking-[0.15em] text-paper/60 uppercase"
           >
-            Phone number
+            Phone number (optional)
           </label>
           <input
             id="phone"
             name="phone"
             type="tel"
-            required
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            placeholder="+91 00000 00000"
+            placeholder="+1 000 000 0000"
             className={inputClasses}
           />
         </div>
