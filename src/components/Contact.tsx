@@ -1,7 +1,14 @@
 const details = [
-  { label: "Email", value: "hello@drishyaframes.com", href: "mailto:hello@drishyaframes.com" },
-  { label: "Phone", value: "+91 00000 00000", href: "tel:+910000000000" },
-  { label: "Instagram", value: "@drishyaframes", href: "https://instagram.com/drishyaframes" },
+  {
+    label: "Email",
+    value: "drishyasframes@gmail.com",
+    href: "mailto:drishyasframes@gmail.com",
+  },
+  {
+    label: "Instagram",
+    value: "@drishya__frames",
+    href: "https://www.instagram.com/drishya__frames/",
+  },
 ];
 
 export default function Contact() {
@@ -36,7 +43,7 @@ export default function Contact() {
         </div>
 
         <a
-          href="mailto:hello@drishyaframes.com"
+          href="mailto:drishyasframes@gmail.com"
           className="mt-14 inline-block rounded-full bg-gold px-10 py-3.5 text-sm font-medium text-ink transition-transform hover:scale-[1.03] active:scale-[0.98]"
         >
           Send an email
