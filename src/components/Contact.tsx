@@ -1,3 +1,5 @@
+import ContactForm from "./ContactForm";
+
 const details = [
   {
     label: "Email",
@@ -14,7 +16,7 @@ const details = [
 export default function Contact() {
   return (
     <section id="contact" className="relative px-6 py-28 sm:py-36">
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-xl text-center">
         <p className="mb-3 text-xs font-medium tracking-[0.35em] text-gold uppercase">
           Get in touch
         </p>
@@ -42,12 +44,7 @@ export default function Contact() {
           ))}
         </div>
 
-        <a
-          href="mailto:drishyasframes@gmail.com"
-          className="mt-14 inline-block rounded-full bg-gold px-10 py-3.5 text-sm font-medium text-ink transition-transform hover:scale-[1.03] active:scale-[0.98]"
-        >
-          Send an email
-        </a>
+        <ContactForm />
       </div>
     </section>
   );
