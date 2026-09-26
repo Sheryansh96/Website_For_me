@@ -7,20 +7,36 @@ const tiles = [
     src: "/gallery/wedding-01.jpg",
     focus: "50% 25%",
   },
-  { span: "", label: "Events" },
   {
     span: "",
+    label: "Portraits",
+    src: "/gallery/portrait-03.jpg",
+    focus: "40% 35%",
+  },
+  {
+    span: "",
+    label: "Portraits",
+    src: "/gallery/portrait-04.jpg",
+    focus: "30% 30%",
+  },
+  {
+    span: "sm:row-span-2",
+    label: "Candid",
+    src: "/gallery/candid-01.jpg",
+    focus: "50% 65%",
+  },
+  {
+    span: "sm:col-span-2",
     label: "Portraits",
     src: "/gallery/portrait-01.jpg",
     focus: "50% 20%",
   },
   {
-    span: "sm:row-span-2",
+    span: "",
     label: "Portraits",
     src: "/gallery/portrait-02.jpg",
     focus: "50% 15%",
   },
-  { span: "sm:col-span-2", label: "Candid" },
 ];
 
 export default function Gallery() {
